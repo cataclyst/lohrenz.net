@@ -10,7 +10,7 @@
       dates: 2018 - 2019
       description: |
         Als Full Stack Engineer habe ich an der technischen wie fachlichen Konzeption, Entwicklung und Einführung einer nativen App für Smartphones (Android & iOS) mitgewirkt, deren Ziel die teilweise Ablösung der aktuellen B2B-Software für ca. 10000 Benutzer sein wird. Bei der Entwicklung kam ein iterativer Ansatz mit wöchentlichen Lieferungen an eine Gruppe von zuletzt etwa 50 produktive Testbenutzer zum Einsatz.
-      focus: 
+      focus:
         - automatisierte und performante Exports und Transformationen großer Datenmengen aus dem bisherigen Oracle-Bestand in das neue System
         - Microservice-basierter Ansatz zur Bereitstellung von Exporter-Applikationen mithilfe von Docker und Kubernetes in der Google Cloud Platform
         - DevOps-Tätigkeiten zur Sicherstellung des automatisierten Monitorings und Alertings
@@ -20,7 +20,7 @@
       dates: 2017 - 2018
       description: |
         Für eine extern entwickelte, an Endkunden gerichtete Webapplikation (Zweck: Verwaltung der im Verkauf befindlichen Immobilien) habe ich am Aufbau einer Microservice-Plattform in der Google Cloud Platform mitgewirkt, die die gesamte fachliche Logik für das Backend der Web App bereitstellt. In enger Abstimmung mit dem Product Owner war ich zuletzt für die technische Konzeption neuer Features, das architekturelle Design, die Implementierung, den Roll-Out und den Support maßgeblich verantwortlich.
-      focus: 
+      focus:
         - Implementierung von Microservices auf Basis von Anforderungen einer extern entwickelten Web Applikation
         - Deployment und Betrieb dieser Microservice mittels Docker und Kubernetes in der Google Cloud Platform
         - Schnittstellendesign und -abstimmung
@@ -29,8 +29,8 @@
     - title: Implementierung einer B2B Web App für A/B-Test-Verwaltung
       dates: 2017
       description: |
-        Zur Konfiguration von A/B-Tests in den Endkunden-Frontends des Immobilienkunden wurde ein webbasiertes Tool implementiert, an dessen Implementierung ich als Full Stack Engineer sowohl im Front- als auch im Backend mitgewirkt habe. Im Fronend kam dabei React zum Einsatz, das Backend wurde in Go implementiert und in der Google Cloud Platform betrieben. Ferner habe ich hauptverantwortlich die Integration der definierten A/B-Tests in das Endkunden-Frontend implementiert, welches auf Basis eines Java- und Spring-Boot-Backends und Freemarker-Frontends operiert.
-      focus: 
+        Zur Konfiguration von A/B-Tests in den Endkunden-Frontends des Immobilienkunden wurde ein webbasiertes Tool implementiert, an dessen Implementierung ich als Full Stack Engineer sowohl im Front- als auch im Backend mitgewirkt habe. Im Frontend kam dabei React zum Einsatz, das Backend wurde in Go implementiert und in der Google Cloud Platform betrieben. Ferner habe ich hauptverantwortlich die Integration der definierten A/B-Tests in das Endkunden-Frontend implementiert, welches auf Basis eines Java- und Spring-Boot-Backends und Freemarker-Frontends operiert.
+      focus:
         - Implementierung von Features der B2B-Applikation zur Konfiguration von A/B-Tests (Go-Backend,  React-Frontend)
         - Integration im B2C-Java-Frontend zur Ausspielung der zuvor definierten A/B-Test-Konfigurationen
         - Enge Abstimmung mit dem Product Owner bzgl. Aufwänden und technischer Machbarkeit, fachlicher Implikationen und Usability-Abwägungen
@@ -41,8 +41,8 @@
   dates: 2011 - 2017
   quote: |
     Im Rahmen meiner Anstellung beim mittelständischen Softwaredienstleister <a href="https://bsi-software.com" target="_blank">BSI</a> habe ich in verschiedenen Projekten als Software Engineer für Business-Software mitgearbeitet. Die folgenden Aspekte verbinden all diese Projekte:
-    
-    <p><b>Key Technologies: </b><mark>Java</mark>, <mark><a href="https://www.eclipse.org/scout/" target="_blank">Eclipse Scout Framework</a></mark> zur Entwicklung von Businessapplikationen <markdivider /> div. Applikationsserver: <mark>Tomcat</mark> <mark>JBoss/Wildfly</mark> <mark>Weblogic</mark> <markdivider /> div. Enterprise-Datenbanken: <mark>Oracle</mark> <mark>DB2</mark></p>
+
+    <p><b>Key Technologies: </b><mark>Java</mark> <markdivider /> <mark><a href="https://www.eclipse.org/scout/" target="_blank">Eclipse Scout Framework</a></mark> zur Entwicklung von Businessapplikationen <markdivider /> div. Applikationsserver: <mark>Tomcat</mark> <mark>JBoss/Wildfly</mark> <mark>Weblogic</mark> <markdivider /> div. Enterprise-Datenbanken: <mark>Oracle</mark> <mark>DB2</mark></p>
     <ul>
       <li>Anforderungsimplementierung auf Basis des hauseigenen Open-Source Frameworks Eclipse Scout und der hauseigenen Standardsoftware BSI CRM, in allen Fällen mit umfangreichen Anpassungen an Kundenwünsche
       <li>Ganzheitliche Betreuung des Entwicklungszyklus von der Analysephase, Konzeption, Implementierung  und Test bis zum Roll-Out und der Wartung des Systems
@@ -51,42 +51,42 @@
     </ul>
     <div class="jobdivider"></div>
   jobs:
-    - title: Kunde in der Telekommunikationsbranche, München
-      dates: 2011 - 2013
-      focus: 
-        - Weiterentwicklung des CRM- und Ticketing-Systems zur Erfassung und Bearbeitung von Störungsmeldungen
-        - Anbindung an Enterprise Service Bus
-        - Softwareseitige Integration von Telefonanlagen-Schnittstellen zum automatischen Routing von Kundenanrufen im Call-Center
-      keytech: Oracle Database, PL/SQL, TIBCO ESB, SOAP Webservices, Apache ActiveMQ
-      additional_keytech: true
     - title: Kunde in der Versicherungsbranche, München
-      dates: 2013
-      focus: 
-        - Upgrade des eingesetzten CRMs auf die aktuelle Version
-        - Datenmigration auf Basis von SQL-Skripten und DB2
-      keytech: DB2 LUW
-      additional_keytech: true
-    - title: Kunde im Automobil-Import, Zürich
-      dates: 2014
-      focus: 
-        - Implementierung einer Sales-Funnel-Datenauswertung zur Steuerung und Koordination der Mitarbeiter
-        - Backend-seitige Aggregation der Daten
-        - Frontend-seitige Anzeige in eingebetten SVG-Grafiken
-      keytech: High Performance SQL, SVG
-      additional_keytech: true
+      dates: 2016 - 2017
+      focus:
+        - Erstellung eines kundenspezifischen Rollen- und Berechtigungskonzepts in der CRM-Applikation
+        - Verbinden der kundenspezifischen Anforderungen zur Datentrennung von Mandanten mit den Berechtigungskonzepten der CRM-Standardsoftware
+        - Anforderungskonsolidierung
+        - erweiterbares und zukunftsfähiges Customizing der CRM-Standardsoftware in Java
     - title: Kunde in der Versicherungsbranche, Nürnberg
       dates: 2015 - 2016
-      focus: 
+      focus:
         - Implementierung eines neuen Angebotssystems innerhalb der CRM-Applikation
         - Anbindung an andere externe Schnittstellen des Kunden für Angebote, Partner, Verträge
         - Design von REST-APIs zusammen mit Entwicklern anderer Dienstleister
         - Integration in Call-Center-Lösung des Kunden
       keytech: REST, JAX-RS
       additional_keytech: true
+    - title: Kunde im Automobil-Import, Zürich
+      dates: 2014
+      focus:
+        - Implementierung einer Sales-Funnel-Datenauswertung zur Steuerung und Koordination der Mitarbeiter
+        - Backend-seitige Aggregation der Daten
+        - Frontend-seitige Anzeige in eingebetten SVG-Grafiken
+      keytech: High Performance SQL, SVG
+      additional_keytech: true
     - title: Kunde in der Versicherungsbranche, München
-      dates: 2016 - 2017
-      focus: 
-        - Erstellung eines kundenspezifischen Rollen- und Berechtigungskonzepts in der CRM-Applikation
-        - Verbinden der kundenspezifischen Anforderungen zur Datentrennung von Mandanten mit den Berechtigungskonzepten der CRM-Standardsoftware
-        - Anforderungskonsolidierung
-        - erweiterbares und zukunftsfähiges Customizing der CRM-Standardsoftware in Java
+      dates: 2013
+      focus:
+        - Upgrade des eingesetzten CRMs auf die aktuelle Version
+        - Datenmigration auf Basis von SQL-Skripten und DB2
+      keytech: DB2 LUW
+      additional_keytech: true
+    - title: Kunde in der Telekommunikationsbranche, München
+      dates: 2011 - 2013
+      focus:
+        - Weiterentwicklung des CRM- und Ticketing-Systems zur Erfassung und Bearbeitung von Störungsmeldungen
+        - Anbindung an Enterprise Service Bus
+        - Softwareseitige Integration von Telefonanlagen-Schnittstellen zum automatischen Routing von Kundenanrufen im Call-Center
+      keytech: Oracle Database, PL/SQL, TIBCO ESB, SOAP Webservices, Apache ActiveMQ
+      additional_keytech: true

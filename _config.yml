@@ -3,7 +3,7 @@
 
 # Personal info
 name: André Lohrenz
-titles: 
+titles:
   - freiberuflicher Softwareentwickler
   - M.Sc. Informatik und Multimedia
 email: info@lohrenz.net
@@ -12,7 +12,7 @@ website: https://lohrenz.net
 
 # Social links
 # twitter_username: jekyllrb
-github_username:  cataclyst
+# github_username: cataclyst
 linkedin_username: andré-lohrenz-288360a7
 xing_username: Andre_Lohrenz
 # pinterest_username: jekyll
@@ -26,9 +26,9 @@ about_content: | # this will include new lines to allow paragraphs
   Enterprise Level Software für tausende Anwender mit, sowohl im B2B- als auch im B2C-Umfeld. Ich begleite Ihr
   Projekt auf Wunsch von der Konzeption über die Implementierung bis hin zum Roll-Out der Software
   an Ihre Anwender. So kann ich Ihrem Projekt zu Erfolg verhelfen, besonders wenn es darum geht,
-  komplexe Anforderung im <mark>Backend</mark>, in der <mark>Datenmigration</mark> oder dem Betrieb 
-  zu erfüllen &mdash; sei es als <mark>Microservices</mark> in der <mark>Cloud</mark> oder eher monolithischer
-  in einer klassischen Serverumgebung.
+  komplexe Anforderung im <mark>Backend</mark>, in der <mark>Datenmigration</mark> oder dem Betrieb
+  zu erfüllen &mdash; sei es als <mark>Microservices</mark> in der <mark>Cloud</mark> oder
+  eher monolithisch in einer klassischen Serverumgebung.
 
   Meine Brot-und-Butter-Technologien sind <mark>Java</mark>, <mark>Go</mark>, <mark>Docker</mark>,
   <mark>Kubernetes</mark> und die <mark>Google Cloud Platform</mark>. Vielen weiteren Technologien bin
