@@ -31,8 +31,9 @@ about_content: | # this will include new lines to allow paragraphs
   in einer klassischen Serverumgebung.
 
   Meine Brot-und-Butter-Technologien sind <mark>Java</mark>, <mark>Go</mark>, <mark>Docker</mark>,
-  <mark>Kubernetes</mark> und die <mark>Google Cloud Platform</mark>. Andere Technologien bin ich 
-  entweder bereits in einem Projekt begegnet (siehe Projektliste) oder ich arbeite mit Freude ein.
+  <mark>Kubernetes</mark> und die <mark>Google Cloud Platform</mark>. Vielen weiteren Technologien bin
+  ich bereits in einem Projekt begegnet (siehe Projektliste) &mdash; in alle anderen arbeite
+  ich mich mit Freude ein.
 
   Gerne entwickle ich in benutzerzentrierten, <mark>agilen Entwicklungsprozessen</mark> und unterstütze Sie auch in Aspekten des <mark>Usability
   Engineering</mark>.
