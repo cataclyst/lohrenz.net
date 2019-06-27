@@ -14,16 +14,38 @@
           </h4>
         <p><b>{{ experience.job_title }}</b></p>
         <p>{{ experience.dates }}</p>
-        {% for job in experience.jobs %}
-          <p><b>{{ job.title }}</b></p>
-          <p>{{ job.dates }}</p>
-        {% endfor %}
       </div>
       <div class="col-xs-12 col-sm-8 col-md-9 col-print-12">
         {%- if experience.quote -%}
-          <p class="quote">{{ experience.quote }}</p>
+          <p class="quote">{{ experience.quote | strip }}</p>
         {%- endif -%}
-        {{ experience.description | strip | markdownify }}
+        {%- if experience.description -%}
+          {{ experience.description | strip | markdownify }}
+        {%- endif -%}
+        
+        {% for job in experience.jobs %}
+
+          {% if forloop.first == false %}
+            <div class="jobdivider"></div>
+          {% endif %}
+
+          <h2 class="job">{{ job.title }} <span class="jobdate">{{job.dates}}</span></h2>
+          {%- if job.keytech -%}
+            <p><b>Key Technologies:</b>&nbsp;
+              {%- if job.additional_keytech == true -%}
+                s.o.; zusätzlich:&nbsp;
+              {%- endif -%}
+              <mark>{{ job.keytech | split: ", " | join: "</mark><markdivider /><mark>" }}</mark>
+            </p>
+          {%- endif -%}
+          <p><i>{{ job.description }}</i></p>
+          <p><b>Tätigkeitsfokus:</b></p>
+          <ul>
+            {% for f in job.focus %}
+              <li>{{ f }}</li>
+            {% endfor %}
+          </ul>
+        {% endfor %}
       </div>
     </div>
   {% endfor %}

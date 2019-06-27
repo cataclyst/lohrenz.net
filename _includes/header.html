@@ -2,7 +2,9 @@
   <div class="row">
     <div class="col-xs-12 col-sm-6 col-md-6 col-lg-8 header-left">
       <h1>{{ site.name | escape }}</h1>
-      <h2>{{ site.title | escape }}</h2>
+      {% for title in site.titles %}
+        <h2 class="title">{{ title | escape }}</h2>
+      {% endfor %}
     </div>
     <div class="col-xs-12 col-sm-6 col-md-6 col-lg-4 header-right">
       <ul class="icons no-print">
@@ -87,7 +89,7 @@
 
       {%- if site.email -%}
         <p>
-          Email: <a href="mailto:{{ site.email }}" target="_blank">{{ site.email | escape }}</a>
+          Email: <a href="mailto:{{ site.email }}?subject={{ site.email_subject }}" target="_blank">{{ site.email | escape }}</a>
         </p>
       {%- endif -%}
       {%- if site.phone -%}

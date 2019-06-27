@@ -1,57 +1,60 @@
 # Site
-repository: Git repository where your resume will be hosted, only required if you are hosting on GitHub (eg. sproogen/modern-resume-theme)
 # favicon: Directory of your favicon (eg. images/favicon.ico)(optional)
 
 # Personal info
-name: Your Name
-title: Your job title
-email: Your email (optional)
-phone: Your phone number (optional)
-website: Your website (eg. https://google.com)(optional)
+name: André Lohrenz
+titles: 
+  - freiberuflicher Softwareentwickler
+  - M.Sc. Informatik und Multimedia
+email: info@lohrenz.net
+email_subject: Kontaktanfrage
+website: https://lohrenz.net
 
 # Social links
-twitter_username: jekyllrb
-github_username:  jekyll
-dribbble_username: jekyll
-facebook_username: jekyll
-flickr_username: jekyll
-instagram_username: jekyll
-linkedin_username: jekyll
-xing_username: jekyll
-pinterest_username: jekyll
-youtube_username: jekyll
-googleplus_username: +jekyll
+# twitter_username: jekyllrb
+github_username:  cataclyst
+linkedin_username: andré-lohrenz-288360a7
+xing_username: Andre_Lohrenz
+# pinterest_username: jekyll
+# youtube_username: jekyll
 
 # About Section
-# about_title: About Me (Use this to override about section title)
-about_profile_image: Directory of profile image (eg. images/profile.jpg)
+about_title: Über mich
+about_profile_image: images/profile.png
 about_content: | # this will include new lines to allow paragraphs
-  Write an awesome description about yourself here, this supports markdown, so you can add [links](http://foobar.com) and highlight things <mark>like this</mark>.
+  Als Full Stack Engineer bringe ich viele Jahre Erfahrung in der ganzheitlichen Entwicklung von
+  Enterprise Level Software für tausende Anwender mit, sowohl im B2B- als auch im B2C-Umfeld. Ich begleite Ihr
+  Projekt auf Wunsch von der Konzeption über die Implementierung bis hin zum Roll-Out der Software
+  an Ihre Anwender. So kann ich Ihrem Projekt zu Erfolg verhelfen, besonders wenn es darum geht,
+  komplexe Anforderung im <mark>Backend</mark>, in der <mark>Datenmigration</mark> oder dem Betrieb 
+  zu erfüllen &mdash; sei es als <mark>Microservices</mark> in der <mark>Cloud</mark> oder eher monolithischer
+  in einer klassischen Serverumgebung.
 
-  You can even add paragraphs by using empty lines like this and add anything else markdown supports such as
-    - Lists
-    - Tables
-    - Links
-    - Images
+  Meine Brot-und-Butter-Technologien sind <mark>Java</mark>, <mark>Go</mark>, <mark>Docker</mark>,
+  <mark>Kubernetes</mark> und die <mark>Google Cloud Platform</mark>. Andere Technologien bin ich 
+  entweder bereits in einem Projekt begegnet (siehe Projektliste) oder ich arbeite mit Freude ein.
+
+  Gerne entwickle ich in benutzerzentrierten, <mark>agilen Entwicklungsprozessen</mark> und unterstütze Sie auch in Aspekten des <mark>Usability
+  Engineering</mark>.
 
 # Projects Section
-# projects_title: Projects #(Use this to override about projects section title)
+projects_title: Projekte
 
 # Experience Section
-# experience_title: Experience #(Use this to override about experience section title)
+experience_title: Erfahrung #(Use this to override about experience section title)
 
 # Education Section
-# education_title: Education #(Use this to override about education section title)
+education_title: Ausbildung
 
 # More Section
 # more_title: A Little More About Me #(Use this to override about more section title)
-more_content: | # this will include new lines to allow paragraphs
-  This is where you can write a little more about yourself. You could title this section **Interests** and include some of your other interests.
+# more_content: | # this will include new lines to allow paragraphs
+#   This is where you can write a little more about yourself. You could title this section **Interests** and include some of your other interests.
 
-  Or you could title it **Skills** and write a bit more about things that make you more desirable, like *leadership* or *teamwork*
+#   Or you could title it **Skills** and write a bit more about things that make you more desirable, like *leadership* or *teamwork*
 
 # Footer
-footer_show_references: true
+footer_show_references: false
 
 # Build settings
 # theme: modern-resume-theme (Use this is you are hosting your resume yourself)
