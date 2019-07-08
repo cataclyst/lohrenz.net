@@ -14,6 +14,8 @@ Warnstedtstr. 59f
 22525 Hamburg  
 [info@lohrenz.net](mailto:info@lohrenz.net)
 
+Umsatzsteuer-Identifikationsnummer: DE324574040
+
 ## Verantwortlich für journalistisch-redaktionelle Inhalte
 
 André Lohrenz  
