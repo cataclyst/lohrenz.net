@@ -10,6 +10,9 @@ email: info@lohrenz.net
 email_subject: Kontaktanfrage
 website: https://lohrenz.net
 
+tagline: Freelance Softwareentwickler für Java und Web in Hamburg
+url: https://lohrenz.net
+
 # Social links
 # twitter_username: jekyllrb
 # github_username: cataclyst
@@ -67,3 +70,6 @@ sass:
 
 plugins:
  - jekyll-seo-tag
+
+google_site_verification: 6m2i8P4pm5L49Z-6bmn6FeF7B1tbNBBTPN19d60ciuQ
+lang: de
