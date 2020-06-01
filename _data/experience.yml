@@ -1,4 +1,28 @@
 # Experience template
+- company: Freiberufliche Projektarbeit
+  dates: seit 2019
+  jobs:
+    - title: Libri GmbH - Weiterentwicklung einer <a href="https://www.libri.de/de/produkte-leistungen/shopsysteme/librishopline/" target="_blank">Whitelabel-Shop-Plattform</a>
+      dates: 2019 - 2020
+      description: |
+        Die Libri GmbH stellt großen und kleinen Bucheinzelhändlern eine Webshop-Lösung zur Verfügung, an deren Weiterentwicklung
+        ich als Freelancer mitgewirkt habe.
+        Das von mir betreute System umfasste sowohl das an Endkunden gerichtete Shop-Frontend als auch verschiedene webbasierte CMS- und
+        Verwaltungstools. Mit deren Hilfe pflegt der Buchhändler die Inhalte des Shops, passt das Design an seine Bedürfnisse an,
+        und verwaltet seine Kunden und Bestellungen.
+        Das Shop-Frontend bestand aus einer React-Applikation sowie einem Java-Backend, in dem auch Spring und Hibernate zum Einsatz kamen.
+        Im Rahmen dieses Projektes habe ich in enger Abstimmung mit dem Product Owner des Teams verschiedene Neufunktionalität
+        technisch konzipiert und implementiert.
+      focus:
+        - Full-Stack-Implementierung abgeschlossener Themenkomplexe, von Backend bis Frontend
+        - Erstellung technischer Konzepte, inkl. Abstimmung mit den beteiligten Teams (z.B. Datenbank und Content)
+        - Unterstützung für fachliche Konzepte, Sparingspartner für Product Owner, sowie auf technischer Ebene
+          für die anderen Softwareentwickler des neu aufgebauten Entwicklerteams
+        - Umsetzung von Anforderungen in Form von User-Stories im Rahmen des Scrum-Prozesses
+        - Bugfixing und Refactoring
+        - fachliche Themenbereiche&colon; Einführung der Consent-Management-Lösung für Besucher des Webshops, PDF-Generierung von Lieferscheinen auf Basis von HTML-Templates, Schaffung der systemgestützten Retoure-Möglichkeit für Gastbestellungen
+      keytech: Java, Spring, Hibernate, REST, Oracle Database, React, Redux, Flow Typecheck, Jest, Tomcat
+
 - company: freiheit.com technologies GmbH
   link: https://freiheit.com
   job_title: Software Engineer
