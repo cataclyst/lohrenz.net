@@ -11,8 +11,9 @@
         Verwaltungstools. Mit deren Hilfe pflegt der Buchhändler die Inhalte des Shops, passt das Design an seine Bedürfnisse an,
         und verwaltet seine Kunden und Bestellungen.
         Das Shop-Frontend bestand aus einer React-Applikation sowie einem Java-Backend, in dem auch Spring und Hibernate zum Einsatz kamen.
-        Im Rahmen dieses Projektes habe ich in enger Abstimmung mit dem Product Owner des Teams verschiedene Neufunktionalität
-        technisch konzipiert und implementiert.
+        Am Ende meines Einsatzes habe ich zudem eine neue React+Typescript-Applikation aufgesetzt, Features iterativ 
+        implementiert und gemeinsam mit dem Team innerhalb weniger Wochen live gebracht.
+        Im Rahmen der gesamten Projektlaufzeit habe ich in enger Abstimmung mit dem Product Owner des Teams verschiedene Neufunktionalität technisch konzipiert und implementiert.
       focus:
         - Full-Stack-Implementierung abgeschlossener Themenkomplexe, von Backend bis Frontend
         - Erstellung technischer Konzepte, inkl. Abstimmung mit den beteiligten Teams (z.B. Datenbank und Content)
@@ -21,7 +22,7 @@
         - Umsetzung von Anforderungen in Form von User-Stories im Rahmen des Scrum-Prozesses
         - Bugfixing und Refactoring
         - fachliche Themenbereiche&colon; Einführung der Consent-Management-Lösung für Besucher des Webshops, PDF-Generierung von Lieferscheinen auf Basis von HTML-Templates, Schaffung der systemgestützten Retoure-Möglichkeit für Gastbestellungen
-      keytech: Java, Spring, Hibernate, REST, Oracle Database, React, Redux, Flow Typecheck, Jest, Tomcat
+      keytech: Java, Spring, Hibernate, REST, Oracle Database, React, Redux, Typescript, Flow Typecheck, Jest, Tomcat, nginx
 
 - company: freiheit.com technologies GmbH
   link: https://freiheit.com
