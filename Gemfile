@@ -1,2 +1,3 @@
 source "https://rubygems.org"
+gem 'bundler', '~> 2.1.0'
 gemspec
