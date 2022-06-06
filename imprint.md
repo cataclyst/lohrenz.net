@@ -10,8 +10,8 @@ layout: imprint
 Betreiber der Webseite lohrenz.net:
 
 André Lohrenz  
-Warnstedtstr. 59f  
-22525 Hamburg  
+Hermann-Balk-Str. 111a  
+22147 Hamburg  
 [info@lohrenz.net](mailto:info@lohrenz.net)
 
 Umsatzsteuer-Identifikationsnummer: DE324574040
