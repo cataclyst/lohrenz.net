@@ -2,8 +2,21 @@
 - company: Freiberufliche Projektarbeit
   dates: seit 2019
   jobs:
+    - title: Hugendubel Digital GmbH & Co. KG - Neuimplementierung einer zentralen Backoffice-Applikation
+      dates: 2025
+      description: |
+        Greenfield-Entwicklung zur Ablösung einer 20 Jahre alten Java-UI-Applikation (Framework „WingS“) zur Kunden- und Auftragsverwaltung für einem Buchhandels-Onlineshop
+      focus:
+        - Technische Analyse bestehender Funktionalität im Legacy-System, Abgleich der Konzepte aus Technik-, Design- und Fachbereich mit Rahmenbedingungen, Abstimmung mit Stakeholdern
+        - Lead der Neuentwicklung für das System in Quarkus (Backend) und Next.js (Frontend), gemeinsame Entwicklung von Features mit Mitarbeitern des Kunden
+        - Grundlagen-Implementierung (Backend) der REST-Endpunkte in Quarkus, Security, OpenID-Connect-Authentifizierung am hauseigenen Azure Entra ID
+        - Grundlagen-Implementierung (Frontend) der Übertragung von Penpot-Konzeptzeichnungen in Next.js, shadcn/ui und Tailwind CSS, Kommunikation mit Backend via OpenAPI-Schnittstellendefinition
+        - Entwicklung und Umsetzung von Deploymentkonzepten auf internen Servern mittels Docker Compose
+        - Umfassende Beratung des Projektteams in grundlegenden technologischen Entscheidungen
+        - Knowhow-Transfer und interne Schulungen zu Konzepten der Weiterentwicklung des Systems
+      keytech: Java, Quarkus, Next.js, TypeScript, Keycloak, Docker, Docker Compose, Oracle Database, OpenID Connect, REST, OpenAPI, OpenTelemetry, shadcn/ui, Tailwind CSS, WingS
     - title: Libri GmbH - Weiterentwicklung einer <a href="https://www.libri.de/de/fuer-den-handel/produkte/libri-shopline/" target="_blank">Whitelabel-Shop-Plattform</a>
-      dates: 2019 - 2020
+      dates: 2019 - 2024
       description: |
         Die Libri GmbH stellt großen und kleinen Bucheinzelhändlern eine Webshop-Lösung zur Verfügung, an deren Weiterentwicklung
         ich als Freelancer mitgewirkt habe.
@@ -15,15 +28,43 @@
         implementiert und gemeinsam mit dem Team innerhalb weniger Wochen live gebracht.
         Im Rahmen der gesamten Projektlaufzeit habe ich in enger Abstimmung mit dem Product Owner des Teams verschiedene Neufunktionalität technisch konzipiert und implementiert.
       focus:
-        - Full-Stack-Implementierung abgeschlossener Themenkomplexe, von Backend bis Frontend
+        - Weiterentwicklung am Whitelabel-Shop-System für Bucheinzelhändler der Libri GmbH (B2C-Webshop für Endkunden, sowie webbasierte B2B-Tools für über 2000 Buchhandlungen) – Produktinformationen: https://www.libri.de/de/fuer-den-handel/produkte/libri-shopline/
+        - Full-Stack-Implementierung abgeschlossener Themenkomplexe, von Backend (Java, Spring) bis Frontend (React)
         - Erstellung technischer Konzepte, inkl. Abstimmung mit den beteiligten Teams (z.B. Datenbank und Content)
-        - Unterstützung für fachliche Konzepte, Sparingspartner für Product Owner, sowie auf technischer Ebene
-          für die anderen Softwareentwickler des neu aufgebauten Entwicklerteams
+        - Unterstützung für fachliche Konzepte, Sparringspartner für Product Owner, sowie auf technischer Ebene für die anderen Softwareentwickler des neu aufgebauten Entwicklerteams
         - Umsetzung von Anforderungen in Form von User-Stories im Rahmen des Scrum-Prozesses
+        - fachliche Themenbereiche&colon; Einführung der Consent-Management-Lösung für Besucher des Webshops; PDF-Generierung von Lieferscheinen auf Basis von HTML-Templates; Schaffung der systemgestützten Retoure-Möglichkeit für Gastbestellungen; Konzeption und Implementierung einer neuen B2B-Webapp (React) zur Bearbeitung von Reservierungsanfragen inkl. Push-Notifications; Integration der Web-Analytics-Platform “Matomo” in das Webshop-Frontend als Ersatz für Google Analytics; Versionsupdates für zentrale Komponenten der React-Frontend-Applikationen inkl. notwendiger Anpassungen (React Router, React Redux); Migration der Frontend-Codebasis von Flow Typecheck auf TypeScript; Konzeption und Implementierung eines neuen Services zur Gutscheinerstellung und -einlösung (auf Basis von Spring Boot, OpenAPI, MySQL, AWS); tiefgreifende Anpassungen des Frontends für Konformität mit dem Barrierefreiheitstärkungsgesetz (BFSG)
+      keytech: Java, Spring, Spring Boot, Hibernate, MySQL, Oracle Database, REST, OpenAPI, React, Redux, Typescript, Jest, Docker, Docker Compose, Kubernetes, Tomcat, nginx, AWS, DataDog, Matomo
+    - title: Hugendubel Digital GmbH & Co. KG - Modernisierung einer Komponente zur Datensynchronisation
+      dates: 2023 - 2024
+      description: •	Technische Interimsverantwortung für eine Spring-Boot-/Apache-Camel-Applikation zu Synchronisation von Kunden- und Bestellungsaten aus einer Oracle Datenbank in eine OpenAPI-definierte REST-Schnittstelle
+      focus:
+        - Update von Spring Boot, Apache Camel und weiteren Bibliotheken auf aktuelle Versionen
+        - Implementierung von Robustheitsanforderungen: Wiederholung bei Fehlern, verbessertes Logging, Schreiben von Metriken in ein Monitoring-Tool (DataDog) via OpenTelemetry
+        - Cloudfähige Modernisierung des Build- und Deployment-Prozesses auf Basis von Gitlab CI, Docker und Azure DevOps
+        - Analyse und Behebung von Fehlern
+        - Abstimmung mit externen Partnern zur Zielschnittstelle und neuen Anforderungen
+      keytech: Java, Spring Boot, Apache Camel, OpenTelemetry, Oracle Database, Azure DevOps
+    - title: BearingPoint Technologieberatung - Weiterentwicklung des CRM-Systems eines Versicherungsunternehmens
+      description: Implementierung von neuen Funktionen im Java-basierten CRM-Produkt “BSI CRM”
+      focus:
+        - Integration mit Tarifrechnern für Versicherungsprodukte
+        - Abstimmung von OpenAPI-basierten Schnittstellen mit anderen Entwicklungsteams im Unternehmen
+        - Entwicklung einer Script-Lösung zur Vereinfachung eines manuellen Deployment-Prozesses
+        - Coaching von Junior-Entwicklern in Java, Code-Qualität und verwendeten Frameworks
+        - Fehleranalysen in Log-Files und anhand von SQL-Abfragen
+        - Durchführen von Code-Reviews
+      keytech: Java, Eclipse Scout, BSI CRM, DB2, REST, OpenAPI
+    - title: Bergwerk.io GmbH & Co. KG - Weiterentwicklung von Backend-Schnittstellen
+      description: Weiterentwicklung der B2C- und B2B-Systemlandschaft eines Kunden in der Medizinproduktbranche
+      focus:
+        - Bereitstellung neuer REST-Endpunkte in Spring Boot für Funktionalitäten im Frontend (Webshop, Anmeldestrecke, Backoffice)
+        - Abstimmung der API mit dem konsumierenden Frontend-Team
+        - Verarbeitung von Daten aus dem Dynamics 365 Business Central-Quellsystem, via Zugriff auf die SQL Server-Datenbank oder OData-Schnittstelle
+        - Konfiguration von CI-Pipelines in Bitbucket für automatisierte Tests und Deployments in AWS Beanstalk
+        - Bereitstellung der Backends als Microservices mittels Docker und Docker Compose
         - Bugfixing und Refactoring
-        - fachliche Themenbereiche&colon; Einführung der Consent-Management-Lösung für Besucher des Webshops, PDF-Generierung von Lieferscheinen auf Basis von HTML-Templates, Schaffung der systemgestützten Retoure-Möglichkeit für Gastbestellungen
-      keytech: Java, Spring, Hibernate, REST, Oracle Database, React, Redux, Typescript, Flow Typecheck, Jest, Tomcat, nginx
-
+      keytech: Java, Spring Boot, JDBC, REST, OData, Microservices, PostgreSQL, Microsoft SQL Server, Microsoft Dynamics 365 Business Central, nginx, Docker, Bitbucket, AWS
 - company: freiheit.com technologies GmbH
   link: https://freiheit.com
   job_title: Software Engineer

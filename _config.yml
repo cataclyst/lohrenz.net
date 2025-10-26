@@ -25,21 +25,15 @@ xing_username: Andre_Lohrenz
 about_title: Über mich
 about_profile_image: images/profile.png
 about_content: | # this will include new lines to allow paragraphs
-  Als Full Stack Engineer bringe ich viele Jahre Erfahrung in der ganzheitlichen Entwicklung von
-  Enterprise Level Software für tausende Anwender mit, sowohl im B2B- als auch im B2C-Umfeld. Ich begleite Ihr
-  Projekt auf Wunsch von der Konzeption über die Implementierung bis hin zum Roll-Out der Software
-  an Ihre Anwender. So kann ich Ihrem Projekt zu Erfolg verhelfen, besonders wenn es darum geht,
-  komplexe Anforderung im <mark>Backend</mark>, in der <mark>Datenmigration</mark> oder im DevOps-Betrieb
-  zu erfüllen &mdash; sei es als <mark>Microservices</mark> in der <mark>Cloud</mark> oder
-  eher monolithisch in einer klassischen Serverumgebung.
-
-  Meine Brot-und-Butter-Technologien sind <mark>Java</mark>, <mark>Go</mark>, <mark>Docker</mark>,
-  <mark>Kubernetes</mark> und die <mark>Google Cloud Platform</mark>. Vielen weiteren Technologien bin
-  ich bereits in einem Projekt begegnet (siehe Projektliste) &mdash; in alle anderen arbeite
-  ich mich mit Freude ein.
-
-  Gerne entwickle ich in benutzerzentrierten, <mark>agilen Entwicklungsprozessen</mark> und unterstütze Sie auch in Aspekten des <mark>Usability
-  Engineering</mark>.
+  Als <mark>Full Stack Engineer</mark> bringe ich viele Jahre Erfahrung in der ganzheitlichen Entwicklung von Enterprise Level Software für tausende Anwender mit, sowohl im B2B- als auch im B2C-Umfeld.
+  
+  Ich begleite Ihr Projekt auf Wunsch von der Konzeption über die Implementierung bis hin zum Roll-Out der Software an Ihre Anwender. So verhelfe ich Ihrem Projekt zum Erfolg, besonders bei komplexen Anforderungen im <mark>Backend</mark>, in der <mark>Datenmigration</mark> oder dem Daily Business — sei es als Microservice in der <mark>Cloud</mark> oder monolithisch in einer klassischen Serverumgebung.
+  
+  Ich bin der Überzeugung: Erfolgreiche IT-Projekte brauchen ausgezeichnete Techniker, die zusätzlich versierte Allrounder sind, die über den Tellerrand schauen und das große Ganze im Blick behalten - gerne diskutiere und konzipiere ich daher zusammen mit Ihnen und Ihren Product Ownern sowohl die fachlichen Details als auch die technische Architektur, stimme die Umsetzung professionell mit allen beteiligten Stakeholdern ab, verantworte die Implementierung vom Frontend bis ins Backend und vernetze mich dabei mit Ihrem bestehenden Entwicklerteam, gerne auch in einer Mentorenrolle auf Augenhöhe für Junior-Kollegen.
+  
+  Meine Brot-und-Butter-Technologien sind <mark>Java</mark>, <mark>Spring Boot</mark>, <mark>Quarkus</mark>, <mark>Go</mark>, <mark>Docker</mark>, <mark>Kubernetes</mark>, <mark>AWS</mark> und die <mark>Google Cloud Platform</mark>, sowie HTML, Javascript und speziell React im Frontend. Vielen weiteren Technologien bin ich bereits in einem Projekt begegnet — und ist mir eine einmal nicht geläufig, so arbeite ich mich mit Freude und in kürzester Zeit ein.
+  
+  Gerne entwickle ich in benutzerzentrierten, <mark>agilen Entwicklungsprozessen</mark> und unterstütze Sie auch in Aspekten der <mark>Web Security</mark> und des <mark>Usability Engineering</mark>.
 
 # Projects Section
 projects_title: Projekte
